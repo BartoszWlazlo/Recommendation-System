@@ -33,7 +33,7 @@ for ind1 in range(len(itemList)):
 
         # lista transakcji, ktore zawierają produkt 2
         item2Orders = productsData[productsData.product_id == itemList[ind2]]["id_order"].tolist()
-        print("Item 2 ",item2Orders)
+        print("Item 2",item2Orders)
 
         # lista transakcji z produktami 1 oraz 2, podzielenie przez ogolna liczbe transakcji
 
@@ -50,8 +50,9 @@ for ind1 in range(len(itemList)):
 
 # sprawdzenie wynikow
 itemAffinity.head()
-
-searchItem = 6034
+itemAffinity = itemAffinity[~(itemAffinity == 0).any(axis=1)]
+itemAffinity.to_csv (r'wyniki.csv', index = None, header=True)
+searchItem = 13232
 
 recoList=itemAffinity[itemAffinity.item1==searchItem]\
         [["item2","score"]]\
