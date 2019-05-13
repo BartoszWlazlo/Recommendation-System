@@ -1,8 +1,9 @@
 import pandas as pd
 
-fields = ['id_order', 'product_id']
-productsData = pd.read_csv('legitneBezId0.csv', usecols=fields)
+data = pd.read_excel('data.xlsx')
+productsData = pd.DataFrame(data, columns= ['product_id','id_order'])
 productsData.head()
+print(productsData)
 
 #print(userItemData)
 
@@ -22,7 +23,7 @@ for ind1 in range(len(itemList)):
 
     # lista transakcji, w ktorych zawarty jest produkt 1
     item1Orders = productsData[productsData.product_id == itemList[ind1]]["id_order"].tolist()
-    # print("Item 1 ", item1Users)
+    print("Item 1 ", item1Orders)
 
     # weź produkt 2 - produkty, ktore nie sa produktem 1 albo te, ktore nie sa przeanalizowane
     for ind2 in range(ind1, len(itemList)):
@@ -32,7 +33,7 @@ for ind1 in range(len(itemList)):
 
         # lista transakcji, ktore zawierają produkt 2
         item2Orders = productsData[productsData.product_id == itemList[ind2]]["id_order"].tolist()
-        # print("Item 2",item2Users)
+        print("Item 2 ",item2Orders)
 
         # lista transakcji z produktami 1 oraz 2, podzielenie przez ogolna liczbe transakcji
 
