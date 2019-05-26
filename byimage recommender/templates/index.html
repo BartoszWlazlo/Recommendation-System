@@ -49,12 +49,12 @@
           </a>
         </div>
           {% for item in allpaths %}
-          <a href="/product/{{item}}"><div class="col-lg-4 col-md-6 mb-4">
+          <a href="/product/{{item}}.jpg"><div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">
-              <img class="card-img-top" src="/static/resources/img/test_images/{{item}}"  alt="">
+              <img class="card-img-top" src="/static/resources/img/test_images/{{item}}.jpg"  alt="">
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="/product/{{item}}">{{ item }}</a>
+                  <a href="/product/{{item}}.jpg">{{ item }}</a>
                 </h4>
                 <h5>{{ range(1, 51) | random }}$</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>

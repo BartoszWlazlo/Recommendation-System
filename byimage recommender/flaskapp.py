@@ -14,6 +14,7 @@ all_paths = []
 def GET_ALL():
     for file in os.listdir(input_path):
         filename = os.fsdecode(file)
+        filename = os.path.splitext(filename)[0]
         all_paths.append(filename)
     return all_paths
 
@@ -54,7 +55,8 @@ def get_similiar_products(product_name):
 @app.route('/product/<some_product>')
 def some_place_page(some_product):
     recommended_products_list=get_similiar_products(some_product)
-    return render_template('/product.html',productname=some_product,recommended_products=recommended_products_list)
+    product=os.path.splitext(some_product)[0]
+    return render_template('/product.html',productname_extension=some_product,recommended_products=recommended_products_list, productname=product)
 
 
 if __name__== "__main__":

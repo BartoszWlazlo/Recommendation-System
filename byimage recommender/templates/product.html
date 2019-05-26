@@ -7,7 +7,7 @@
         <div class="col-12">
             <div class="col-6">
                     <div class="card h-50">
-                      <img class="card-img-top" src="/static/resources/img/test_images/{{productname}}"  alt="">
+                      <img class="card-img-top" src="/static/resources/img/test_images/{{productname_extension}}"  alt="">
                       <div class="card-body">
                         <h4 class="card-title">
                           {{productname}}
@@ -49,7 +49,7 @@
                       <img class="card-img-top" src="/static/resources/img/test_images/{{item[1]}}"  alt="">
                       <div class="card-body">
                         <h4 class="card-title">
-                          <a href="#">{{item[1]}}</a>
+                          <a href="/product/{{item[1]}}">{{item[1]}}</a>
                         </h4>
                         <h5>{{ range(1, 51) | random }}$</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
