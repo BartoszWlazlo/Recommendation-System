@@ -9,7 +9,7 @@ import numpy as np
 from sklearn.cluster import KMeans
 from sklearn.decomposition import PCA
 
-input_path = './test_images'
+input_path = './static/resources/img/test_images'
 files = os.listdir(input_path)
 
 img2vec = Img2Vec()
