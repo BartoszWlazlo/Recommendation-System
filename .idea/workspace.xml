@@ -2,31 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="345af09f-0d49-465b-af2b-076779109910" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/byimage recommender/basicapp/basicapp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/byimage recommender/flaskapp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/byimage recommender/get_all_paths.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/byimage recommender/templates/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/byimage recommender/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/byimage recommender/templates/layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/byimage recommender/templates/nav.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/byimage recommender/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/byimage recommender/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/byimage recommender/cat.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/byimage recommender/basicapp/cat.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/byimage recommender/cat2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/byimage recommender/basicapp/cat2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/byimage recommender/catdog.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/byimage recommender/basicapp/catdog.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/byimage recommender/face.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/byimage recommender/basicapp/face.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/byimage recommender/face2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/byimage recommender/basicapp/face2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/byimage recommender/test_clustering.py" beforeDir="false" afterPath="$PROJECT_DIR$/byimage recommender/clustering.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/byimage recommender/test_images/111.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/byimage recommender/test_images/222.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/byimage recommender/test_images/cat.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/byimage recommender/test_images/cat2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/byimage recommender/test_images/catdog.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/byimage recommender/test_images/face.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/byimage recommender/test_images/face2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/byimage recommender/test_img_to_vec.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img_to_vec.py" beforeDir="false" afterPath="$PROJECT_DIR$/img_to_vec.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/byimage recommender/flaskapp.py" beforeDir="false" afterPath="$PROJECT_DIR$/byimage recommender/flaskapp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/byimage recommender/get_all_paths.py" beforeDir="false" afterPath="$PROJECT_DIR$/byimage recommender/get_all_paths.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/byimage recommender/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/byimage recommender/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sandbox.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,44 +16,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/byimage recommender/app.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/byimage recommender/get_all_paths.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/byimage recommender/flaskapp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="42">
+              <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/byimage recommender/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="51" column="22" lean-forward="true" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
+            <state relative-caret-position="270">
+              <caret line="57" column="75" selection-start-line="57" selection-start-column="75" selection-end-line="57" selection-end-column="75" />
+              <folding>
+                <element signature="n#style#0;n#h5#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -99,14 +61,14 @@
         <option value="$PROJECT_DIR$/byimage recommender/test_clustering.py" />
         <option value="$PROJECT_DIR$/byimage recommender/resources/templates/footer.html" />
         <option value="$PROJECT_DIR$/byimage recommender/resources/templates/nav.html" />
-        <option value="$PROJECT_DIR$/byimage recommender/flaskapp.py" />
         <option value="$PROJECT_DIR$/byimage recommender/resources/templates/layout.html" />
         <option value="$PROJECT_DIR$/byimage recommender/resources/templates/index.html" />
         <option value="$PROJECT_DIR$/byimage recommender/templates/layout.html" />
-        <option value="$PROJECT_DIR$/byimage recommender/templates/index.html" />
         <option value="$PROJECT_DIR$/byimage recommender/app.py" />
         <option value="$PROJECT_DIR$/byimage recommender/clustering.py" />
         <option value="$PROJECT_DIR$/byimage recommender/get_all_paths.py" />
+        <option value="$PROJECT_DIR$/byimage recommender/flaskapp.py" />
+        <option value="$PROJECT_DIR$/byimage recommender/templates/index.html" />
       </list>
     </option>
   </component>
@@ -174,8 +136,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Recommendation-System\byimage recommender\static" />
       <recent name="C:\Recommendation-System\byimage recommender" />
+      <recent name="C:\Recommendation-System\byimage recommender\static" />
       <recent name="C:\Recommendation-System" />
       <recent name="C:\Recommendation-System\byimage recommender\basicapp" />
       <recent name="C:\Recommendation-System\byimage recommender\resources\img" />
@@ -193,7 +155,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.get_all_paths">
+  <component name="RunManager" selected="Python.flaskapp">
     <configuration name="app (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Recommendation-System" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -301,9 +263,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.flaskapp" />
         <item itemvalue="Python.get_all_paths" />
         <item itemvalue="Python.app (1)" />
-        <item itemvalue="Python.flaskapp" />
         <item itemvalue="Python.basicapp" />
         <item itemvalue="Python.test_img_to_vec (1)" />
       </list>
@@ -399,20 +361,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/byimage recommender/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="51" column="22" lean-forward="true" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/byimage recommender/flaskapp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/byimage recommender/clustering.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
@@ -423,22 +371,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/byimage recommender/get_all_paths.py">
+    <entry file="file://$PROJECT_DIR$/byimage recommender/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="102">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/byimage recommender/app.py">
+    <entry file="file://$PROJECT_DIR$/byimage recommender/sandbox.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state>
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/byimage recommender/get_all_paths.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" selection-start-line="5" selection-end-line="9" selection-end-column="20" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/byimage recommender/flaskapp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/byimage recommender/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="57" column="75" selection-start-line="57" selection-start-column="75" selection-end-line="57" selection-end-column="75" />
+          <folding>
+            <element signature="n#style#0;n#h5#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
