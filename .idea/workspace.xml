@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="345af09f-0d49-465b-af2b-076779109910" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/byimage recommender/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/byimage recommender/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/byimage recommender/flaskapp.py" beforeDir="false" afterPath="$PROJECT_DIR$/byimage recommender/flaskapp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/byimage recommender/static/resources/css/shop-homepage.css" beforeDir="false" afterPath="$PROJECT_DIR$/byimage recommender/static/resources/css/shop-homepage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/byimage recommender/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/byimage recommender/templates/footer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/byimage recommender/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/byimage recommender/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/byimage recommender/templates/nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/byimage recommender/templates/nav.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,20 +36,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/byimage recommender/templates/product.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+            <state relative-caret-position="336">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/byimage recommender/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="66" column="10" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="22" />
+            <state relative-caret-position="189">
+              <caret line="57" column="21" lean-forward="true" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -106,10 +101,10 @@
         <option value="$PROJECT_DIR$/byimage recommender/static/resources/css/shop-homepage.css" />
         <option value="$PROJECT_DIR$/byimage recommender/templates/footer.html" />
         <option value="$PROJECT_DIR$/byimage recommender/templates/nav.html" />
-        <option value="$PROJECT_DIR$/byimage recommender/templates/index.html" />
         <option value="$PROJECT_DIR$/byimage recommender/app.py" />
         <option value="$PROJECT_DIR$/byimage recommender/flaskapp.py" />
         <option value="$PROJECT_DIR$/byimage recommender/templates/product.html" />
+        <option value="$PROJECT_DIR$/byimage recommender/templates/index.html" />
       </list>
     </option>
   </component>
@@ -492,17 +487,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/byimage recommender/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/byimage recommender/templates/product.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="66" column="10" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="22" />
+        <state relative-caret-position="336">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/byimage recommender/templates/product.html">
+    <entry file="file://$PROJECT_DIR$/byimage recommender/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+        <state relative-caret-position="189">
+          <caret line="57" column="21" lean-forward="true" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
         </state>
       </provider>
     </entry>
