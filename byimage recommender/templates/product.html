@@ -2,17 +2,69 @@
 {% extends 'layout.html' %}
 
 {% block content %}
-  <!-- Page Content -->
-  PRODUCT NAME:{{productname}}
-  <ul>
-    {% for item in recommended_products %}
-    <li>
-      korelacja: {{item[0]}}
-      <br>
-      nazwa: {{item[1]}}
-    </li>
-    {% endfor %}
-  </ul>
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div class="col-6">
+                    <div class="card h-50">
+                      <img class="card-img-top" src="/static/resources/img/test_images/{{productname}}"  alt="">
+                      <div class="card-body">
+                        <h4 class="card-title">
+                          {{productname}}
+                        </h4>
+                      </div>
+                    </div>
+                </div>
+        <div class="col-6">
+            <table class="table table-bordered">
+                <tbody>
+                    <tr>
+                      <th>Cena</th>
+                        <td><h5>{{ range(1, 51) | random }}$</h5></td>
+                    </tr>
+                    <tr>
+                      <th>Opis</th>
+                        <td><p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p></td>
+                    </tr>
+                    <tr>
+                      <th>Ocena</th>
+                        <td><small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <h1>Polecane przedmioty:</h1>
+</div>
+
+<div class="col-lg-9">
+    <div class="row" style="margin-left: 400px">
+            {% for item in recommended_products %}
+                <a href="/product/{{item[1]}}">
+                    <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100">
+                      <img class="card-img-top" src="/static/resources/img/test_images/{{item[1]}}"  alt="">
+                      <div class="card-body">
+                        <h4 class="card-title">
+                          <a href="#">{{item[1]}}</a>
+                        </h4>
+                        <h5>{{ range(1, 51) | random }}$</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+                          <b><p class="card-text">Korelacja: {{item[0]}}</p></b>
+
+                      </div>
+                      <div class="card-footer">
+                        <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+            {% endfor %}
+        </div>
+</div>
 
 
   <!-- /.container -->
