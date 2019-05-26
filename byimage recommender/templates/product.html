@@ -1,0 +1,19 @@
+<!-- index.html -->
+{% extends 'layout.html' %}
+
+{% block content %}
+  <!-- Page Content -->
+  PRODUCT NAME:{{productname}}
+  <ul>
+    {% for item in recommended_products %}
+    <li>
+      korelacja: {{item[0]}}
+      <br>
+      nazwa: {{item[1]}}
+    </li>
+    {% endfor %}
+  </ul>
+
+
+  <!-- /.container -->
+{% endblock %}

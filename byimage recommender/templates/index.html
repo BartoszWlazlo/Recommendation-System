@@ -9,11 +9,12 @@
 
       <div class="col-lg-3">
 
-        <h1 class="my-4">Shop Name</h1>
+        <h1 class="my-4">SvA Inc.</h1>
         <div class="list-group">
-          <a href="#" class="list-group-item">Category 1</a>
-          <a href="#" class="list-group-item">Category 2</a>
-          <a href="#" class="list-group-item">Category 3</a>
+          <a href="#" class="list-group-item">Home</a>
+          <a href="#" class="list-group-item">About</a>
+          <a href="#" class="list-group-item">Services</a>
+          <a href="#" class="list-group-item">Contact</a>
         </div>
 
       </div>
@@ -48,21 +49,21 @@
           </a>
         </div>
           {% for item in allpaths %}
-          <div class="col-lg-4 col-md-6 mb-4">
+          <a href="/product/{{item}}"><div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="/static/resources/img/test_images/{{item}}"  alt=""></a>
+              <img class="card-img-top" src="/static/resources/img/test_images/{{item}}"  alt="">
               <div class="card-body">
                 <h4 class="card-title">
                   <a href="#">{{ item }}</a>
                 </h4>
-                <h5 style="text-align: center">{{ range(1, 51) | random }}$</h5>
+                <h5>{{ range(1, 51) | random }}$</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
               </div>
               <div class="card-footer">
                 <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
               </div>
             </div>
-          </div>
+          </div></a>
           {% endfor %}
 
         </div>

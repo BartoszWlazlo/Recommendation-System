@@ -17,25 +17,18 @@ for file in os.listdir(input_path):
     vec = img2vec.get_vec(img)
     pics[filename] = vec
 
-pic_name = ""
-while pic_name != "exit":
-    pic_name = str(input("Which filename would you like similarities for?\n"))
+def get_similiar_products():
+    pic_name = "bluza1.jpg"
+    print()
+    sims = {}
+    for key in list(pics.keys()):
+        if key == pic_name:
+            continue
 
-    try:
-        sims = {}
-        for key in list(pics.keys()):
-            if key == pic_name:
-                continue
-
-            sims[key] = cosine_similarity(pics[pic_name].reshape((1, -1)), pics[key].reshape((1, -1)))[0][0]
+        sims[key] = cosine_similarity(pics[pic_name].reshape((1, -1)), pics[key].reshape((1, -1)))[0][0]
 
         d_view = [(v, k) for k, v in sims.items()]
         d_view.sort(reverse=True)
-        for v, k in d_view:
-            print(v, k)
 
-    except KeyError as e:
-        print('Could not find filename %s' % e)
-
-    except Exception as e:
-        print(e)
+    similiar_products=d_view[:6]
+    return(similiar_products)
