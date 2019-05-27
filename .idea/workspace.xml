@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="345af09f-0d49-465b-af2b-076779109910" name="Default Changelist" comment="new product view, fixed links, cosmetic changes">
-      <change beforePath="$PROJECT_DIR$/.idea/Recommendation-System.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Recommendation-System.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/byimage recommender/flaskapp.py" beforeDir="false" afterPath="$PROJECT_DIR$/byimage recommender/flaskapp.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/byimage recommender/static/resources/css/shop-homepage.css" beforeDir="false" afterPath="$PROJECT_DIR$/byimage recommender/static/resources/css/shop-homepage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/byimage recommender/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/byimage recommender/templates/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/byimage recommender/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/byimage recommender/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/byimage recommender/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/byimage recommender/templates/layout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/byimage recommender/templates/nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/byimage recommender/templates/nav.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/byimage recommender/templates/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/byimage recommender/templates/product.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +17,7 @@
         <entry file="file://$PROJECT_DIR$/byimage recommender/flaskapp.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="328">
-              <caret line="51" column="32" lean-forward="true" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
+              <caret line="51" column="32" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -89,6 +81,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -147,7 +140,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -480,7 +472,7 @@
     <entry file="file://$PROJECT_DIR$/byimage recommender/flaskapp.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="328">
-          <caret line="51" column="32" lean-forward="true" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
+          <caret line="51" column="32" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
