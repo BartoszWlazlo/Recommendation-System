@@ -49,7 +49,7 @@ def get_similiar_products(product_name):
         d_view = [(v, k) for k, v in sims.items()]
         d_view.sort(reverse=True)
 
-    similiar_products=d_view[:6]
+    similiar_products=d_view[:8]
     return(similiar_products)
 
 @app.route('/product/<some_product>')
