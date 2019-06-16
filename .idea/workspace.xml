@@ -2,8 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="345af09f-0d49-465b-af2b-076779109910" name="Default Changelist" comment="new product view, fixed links, cosmetic changes">
-      <change beforePath="$PROJECT_DIR$/byimage recommender/static/resources/css/shop-homepage.css" beforeDir="false" afterPath="$PROJECT_DIR$/byimage recommender/static/resources/css/shop-homepage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/byimage recommender/templates/nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/byimage recommender/templates/nav.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/byimage recommender/flaskapp.py" beforeDir="false" afterPath="$PROJECT_DIR$/byimage recommender/flaskapp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie recommender/movie-recommender.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie recommender/movies.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie recommender/ratings.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product recommender/all.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product recommender/allcleaned.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product recommender/data.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product recommender/done.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product recommender/donecleaned.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product recommender/for1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product recommender/links.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product recommender/product-recommender.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product recommender/tags.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product recommender/wyniki.csv" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/byimage recommender/flaskapp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="51" column="32" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
+            <state relative-caret-position="189">
+              <caret line="30" column="19" lean-forward="true" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -25,7 +38,56 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/img_to_vec.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="15" column="21" lean-forward="true" selection-start-column="7" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/byimage recommender/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1197">
+              <caret line="57" column="21" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/byimage recommender/templates/layout.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/byimage recommender/clustering.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="903">
+              <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -57,7 +119,9 @@
         <option value="$PROJECT_DIR$/byimage recommender/app.py" />
         <option value="$PROJECT_DIR$/byimage recommender/templates/index.html" />
         <option value="$PROJECT_DIR$/byimage recommender/templates/product.html" />
+        <option value="$PROJECT_DIR$/byimage recommender/sandbox.py" />
         <option value="$PROJECT_DIR$/byimage recommender/flaskapp.py" />
+        <option value="$PROJECT_DIR$/byimage recommender/2.py" />
       </list>
     </option>
   </component>
@@ -81,7 +145,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -140,25 +203,27 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/byimage recommender" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Barto\PycharmProjects\Recommendation-System\byimage recommender\templates" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Barto\PycharmProjects\Recommendation-System\byimage recommender\static\resources\img" />
       <recent name="C:\Recommendation-System\byimage recommender" />
       <recent name="C:\Recommendation-System\byimage recommender\static" />
       <recent name="C:\Recommendation-System" />
       <recent name="C:\Recommendation-System\byimage recommender\basicapp" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Recommendation-System\byimage recommender" />
+      <recent name="C:\Users\Barto\PycharmProjects\Recommendation-System\byimage recommender\templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -174,6 +239,27 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.flaskapp">
+    <configuration name="2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Recommendation-System" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/byimage recommender" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/byimage recommender/2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="app (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Recommendation-System" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -262,42 +348,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_img_to_vec (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Recommendation-System" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/byimage recommender" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Recommendation-System\byimage recommender\app.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
+      <item itemvalue="Python.2" />
       <item itemvalue="Python.app (1)" />
       <item itemvalue="Python.basicapp" />
       <item itemvalue="Python.flaskapp" />
       <item itemvalue="Python.get_all_paths" />
-      <item itemvalue="Python.test_img_to_vec (1)" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.flaskapp" />
+        <item itemvalue="Python.2" />
         <item itemvalue="Python.app (1)" />
         <item itemvalue="Python.get_all_paths" />
         <item itemvalue="Python.basicapp" />
-        <item itemvalue="Python.test_img_to_vec (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -323,14 +387,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="55" y="-7" width="1488" height="878" extended-state="6" />
+    <frame x="56" y="-7" width="1487" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16253443" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16126809" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3574297" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3847242" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39892906" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -381,16 +446,6 @@
     <entry file="file://$PROJECT_DIR$/example/test_clustering.py" />
     <entry file="file://$PROJECT_DIR$/app.py" />
     <entry file="file://$PROJECT_DIR$/example/test_img_to_vec.py" />
-    <entry file="file://$PROJECT_DIR$/img_to_vec.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-519">
-          <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/byimage recommender/basicapp/basicapp.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -398,7 +453,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/byimage recommender/sandbox.py" />
     <entry file="file://$PROJECT_DIR$/byimage recommender/get_all_paths.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -427,35 +481,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/byimage recommender/clustering.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/flask/app.py" />
     <entry file="file://$PROJECT_DIR$/byimage recommender/templates/product.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="292">
           <caret line="71" selection-start-line="71" selection-end-line="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/byimage recommender/templates/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="20" selection-start-line="20" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/byimage recommender/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="57" column="21" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -469,12 +499,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/byimage recommender/sandbox.py" />
+    <entry file="file://$PROJECT_DIR$/byimage recommender/2.py" />
     <entry file="file://$PROJECT_DIR$/byimage recommender/flaskapp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="51" column="32" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
+        <state relative-caret-position="189">
+          <caret line="30" column="19" lean-forward="true" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/byimage recommender/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1197">
+          <caret line="57" column="21" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/byimage recommender/templates/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/byimage recommender/clustering.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="903">
+          <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img_to_vec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="21" lean-forward="true" selection-start-column="7" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
           </folding>
         </state>
       </provider>

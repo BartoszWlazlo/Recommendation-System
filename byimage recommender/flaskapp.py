@@ -5,6 +5,7 @@ sys.path.append("..")  # Adds higher directory to python modules path.
 from img_to_vec import Img2Vec
 from PIL import Image
 from sklearn.metrics.pairwise import cosine_similarity
+import re
 
 sys.path.append("..")  # Adds higher directory to python modules path.
 input_path = './static/resources/img/test_images'
