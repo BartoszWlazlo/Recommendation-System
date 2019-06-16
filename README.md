@@ -28,14 +28,14 @@ pip3 install https://download.pytorch.org/whl/cu90/torch-1.1.0-cp36-cp36m-win_am
 pip3 install https://download.pytorch.org/whl/cu90/torchvision-0.3.0-cp36-cp36m-win_amd64.whl
 
 ```
-After that move in command line to :* Recommendation-System/byimage recommender/*   and open up app.
+After that move in command line to : *Recommendation-System/byimage recommender/ * and open up app.
 
 `python flaskapp.py`
 
 ## Example of usage
 Homepage view.
-![](https://github.com/BartoszWlazlo/Recommendation-System/readme/1.png)
+![alt text](https://github.com/BartoszWlazlo/Recommendation-System/blob/master/readme/1.png)
 Product view.
-![](https://github.com/BartoszWlazlo/Recommendation-System/readme/2.png)
+![alt text](https://github.com/BartoszWlazlo/Recommendation-System/blob/master/readme/2.png)
 Recommendation for X product.
-![](https://github.com/BartoszWlazlo/Recommendation-System/readme/3.png)
+![alt text](https://github.com/BartoszWlazlo/Recommendation-System/blob/master/readme/3.png)
