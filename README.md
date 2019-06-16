@@ -1,5 +1,5 @@
 # Recommendation System for e-commerce - based on image
-## Introduction
+
 The web-based application recommends similar products based on the similarity of product images.
 
 ## Technologies
@@ -33,9 +33,11 @@ After that move in command line to : *Recommendation-System/byimage recommender/
 `python flaskapp.py`
 
 ## Example of usage
-Homepage view.
+**Homepage view**
 ![alt text](https://github.com/BartoszWlazlo/Recommendation-System/blob/master/readme/1.png)
-Product view.
+
+**Product view**
 ![alt text](https://github.com/BartoszWlazlo/Recommendation-System/blob/master/readme/2.png)
-Recommendation for X product.
+
+**Recommendation for X product**
 ![alt text](https://github.com/BartoszWlazlo/Recommendation-System/blob/master/readme/3.png)
