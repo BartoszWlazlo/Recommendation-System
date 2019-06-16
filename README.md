@@ -1,15 +1,8 @@
-#Recommendation System for e-commerce - based on image
-
-[TOCM]
-
-[TOC]
-
-
-
-##Introduction
+# Recommendation System for e-commerce - based on image
+## Introduction
 The web-based application recommends similar products based on the similarity of product images.
 
-##Technologies
+## Technologies
 App is based on **Python 3.6**
 It uses the following technologies:
 - Python 3.6
@@ -25,7 +18,7 @@ It uses the following technologies:
 
 `IMG_TO_VEC - github` : <https://github.com/christiansafka/img2vec>
 
-##How to use
+## How to use
 In order to get this app up&running you need to open Windows command line and write following :
 ```
 pip install --upgrade pip
@@ -39,7 +32,7 @@ After that move in command line to :* Recommendation-System/byimage recommender/
 
 `python flaskapp.py`
 
-##Example of usage
+## Example of usage
 Homepage view.
 ![](https://github.com/BartoszWlazlo/Recommendation-System/readme/1.png)
 Product view.
