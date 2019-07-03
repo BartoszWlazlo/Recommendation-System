@@ -1,5 +1,5 @@
 # Recommendation System for e-commerce - based on image
-
+### GUI is not finished! This project was only created for university purposes, targeted to have specific functions not views :)
 The web-based application recommends similar products based on the similarity of product images.
 
 ## Technologies
